@@ -1,0 +1,51 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #000000;
+    text-align: center;
+}
+
+.titulo {
+     background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 20px;
+}
+
+.titulo h1{
+    margin: 0;
+}
+
+
+nav {
+    margin-top: 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+button {
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+        
+button:hover {
+    background-color: #333;
+    color: white;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+}
